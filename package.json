@@ -1,7 +1,21 @@
 {
   "name": "cfw-parser",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "license": "MIT",
-  "type": "commonjs"
+  "type": "commonjs",
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "rollup-plugin-babel": "^4.4.0"
+  },
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^23.0.4",
+    "commonjs": "^0.0.1",
+    "from": "^0.1.7",
+    "import": "^0.0.6"
+  }
 }
