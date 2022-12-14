@@ -1,6 +1,6 @@
 # CFW-parser
 
-A simple program for clash-for-windows to custom you own Javascript parser file
+A simple program for clash-for-windows to custom your own Javascript parser file
 
 ## usage
 
